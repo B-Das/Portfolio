@@ -1,0 +1,41 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="highlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+  
+  <!-- Decorative Elements -->
+  <circle cx="200" cy="150" r="80" fill="url(#highlight)" opacity="0.2" />
+  <circle cx="1000" cy="500" r="120" fill="url(#highlight)" opacity="0.1" />
+  
+  <!-- Portfolio Title -->
+  <text x="600" y="200" font-family="Arial" font-size="72" font-weight="bold" fill="white" text-anchor="middle">Biraj's Portfolio</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="280" font-family="Arial" font-size="32" fill="#94a3b8" text-anchor="middle">Web Developer &amp; Designer</text>
+  
+  <!-- Feature Icons -->
+  <g transform="translate(300, 400)">
+    <rect width="120" height="120" rx="20" fill="#1e293b" stroke="url(#highlight)" stroke-width="2" />
+    <text x="60" y="80" font-family="Arial" font-size="16" fill="white" text-anchor="middle">React</text>
+  </g>
+  
+  <g transform="translate(540, 400)">
+    <rect width="120" height="120" rx="20" fill="#1e293b" stroke="url(#highlight)" stroke-width="2" />
+    <text x="60" y="80" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Tailwind</text>
+  </g>
+  
+  <g transform="translate(780, 400)">
+    <rect width="120" height="120" rx="20" fill="#1e293b" stroke="url(#highlight)" stroke-width="2" />
+    <text x="60" y="80" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Vite</text>
+  </g>
+</svg> 

@@ -4,30 +4,30 @@ export const ProjectsSection = () => {
     const projects = [
         {
             id: "one",
-            title: "SAS Landing Page",
-            description: "AI-Powered Business Solutions landing page with modern design and interactive elements.",
-            image: "/projects/project1.svg",
-            tags: ["React", "TailwindCSS", "Supabase"],
-            githubURL: "https://github.com/yourusername/sas-landing-page",
-            demoURL: "https://sas-landing-page.vercel.app"
+            title: "Portfolio",
+            description: "A sleek and responsive portfolio website built with React and TailwindCSS",
+            image: "/projects/portfolio.webp",
+            tags: ["React", "TailwindCSS", "Lucide-React","emailjs"],
+            githubURL: "https://github.com/B-Das/portfolio",
+            demoURL: "https://birajdasportfolio.netlify.app/"
         },
         {
             id: "two",
-            title: "Personalized AI Meal Plans",
-            description: "AI-driven meal planning application that creates personalized meal plans based on user preferences.",
-            image: "/projects/project2.svg",
-            tags: ["TypeScript", "D3.js", "Next.js"],
-            githubURL: "https://github.com/yourusername/meal-planner",
-            demoURL: "https://meal-planner-demo.vercel.app"
+            title: "Carbon Footprint Calculator",
+            description: "CarbonCalC is a privacy-focused web application that helps businesses measure, understand, and reduce their carbon footprint using internationally recognized greenhouse gas (GHG) standards.",
+            image: "/projects/carboncalc.webp",
+            tags: ["javascript", "html", "css"],
+            githubURL: "https://github.com/B-Das/carbon-calculator",
+            demoURL: "https://carboncalce.netlify.app/"
         },
         {
             id: "three",
-            title: "Explore Countries",
-            description: "Interactive application for exploring countries with real-time data visualization and statistics.",
-            image: "/projects/project3.svg",
-            tags: ["React", "Node.js", "Stripe"],
-            githubURL: "https://github.com/yourusername/country-explorer",
-            demoURL: "https://country-explorer.vercel.app"
+            title: "Estatehaven Real Estate",
+            description: "Estatehaven is a clients Real Estate website that allows users to buy, sell, and rent properties.",
+            image: "/projects/estatehaven.webp",
+            tags: ["wordpress"],
+            // githubURL: "https://github.com/B-Das/estatehaven",
+            // demoURL: "https://estatehaven.netlify.app/"
         },
         {
             id: "four",
@@ -37,24 +37,6 @@ export const ProjectsSection = () => {
             tags: ["JavaScript", "API Integration", "CSS Grid"],
             githubURL: "https://github.com/B-Das/crypto-tracker",
             demoURL: "https://b-das.github.io/crypto-tracker/"
-        },
-        {
-            id: "five",
-            title: "Portfolio Website",
-            description: "Modern portfolio website with interactive elements, smooth animations, and responsive design.",
-            image: "/projects/project5.svg",
-            tags: ["React", "Tailwind CSS", "Framer Motion"],
-            githubURL: "https://github.com/yourusername/portfolio",
-            demoURL: "https://yourportfolio.vercel.app"
-        },
-        {
-            id: "six",
-            title: "Recipe Finder",
-            description: "Find recipes based on your ingredients with filtering options and step-by-step cooking instructions.",
-            image: "/projects/project6.svg",
-            tags: ["React", "API Integration", "Styled Components"],
-            githubURL: "https://github.com/yourusername/recipe-finder",
-            demoURL: "https://recipe-finder-demo.vercel.app"
         }
     ];
 
@@ -68,7 +50,7 @@ export const ProjectsSection = () => {
                     Here are some of my recent projects that showcase my skills and expertise in web development.
                 </p>
 
-                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                     {projects.map((project) => (
                         <div 
                             key={project.id} 

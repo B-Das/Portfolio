@@ -77,9 +77,8 @@ export const Navbar = () => {
       >
         <div className="container mx-auto flex items-center justify-between px-4">
           <a href="#hero" className="flex items-center font-bold text-xl text-foreground">
-            <span>Biraj</span>
+            <span>Biraj's</span>
             <span className="text-primary text-glow">Portfolio</span>
-            
           </a>
 
           {/* Desktop Navigation */}
